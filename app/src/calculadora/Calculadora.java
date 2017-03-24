@@ -19,5 +19,18 @@ public double tangente (){
     return s ;
 
 }
+public double sec(){
+    s=1/(cos(num1));
+    return s;
+}
+public double csc(){
+    s= 1/(sin(num1));
+    return s;
+}
+public double cotangente (){
+    s = 1/(tan(num1));
+    return s ;
+
+}
 
 }
